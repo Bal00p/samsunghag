@@ -14,12 +14,8 @@ public class MyPaint extends View {
 
     protected void onDraw(Canvas canvas) {
         Paint paint = new Paint();
-        paint.setColor(Color.YELLOW);
+        paint.setColor(Color.BLUE);
         paint.setStyle(Paint.Style.FILL);
-        canvas.drawCircle(300, 300, 200, paint);
-        paint.setColor(Color.RED);
-        paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(20);
-        canvas.drawCircle(300, 300, 200, paint);
+        canvas.drawRect(100, 100, 300, 300, paint);
     }
 }
