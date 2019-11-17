@@ -22,13 +22,16 @@ public class MainActivity extends Activity {
     }
 
     @Override
+            Log.d(LOG_TAG, "Creating OptionsMenu..");
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        Log.d(LOG_TAG, "OptionsMenu created!");
         return true;
     }
 
-    @Override
+    @
+            Log.d(LOG_TAG, "Creating ItemSelected..");
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -37,6 +40,7 @@ public class MainActivity extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Log.d(LOG_TAG, "ItemSelected created!");
             return true;
         }
 
