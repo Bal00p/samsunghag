@@ -1,8 +1,8 @@
 <resources>
-<<<<<<< Updated upstream
-    <string name="app_name">Logcat.2.3.1</string>
-    <string name="action_settings">Settings</string>
-=======
-    <string name="app_name">Lifecycle.2.4.2</string>
->>>>>>> Stashed changes
+    <string name="app_name">My Application</string>
+    <string name="title">Решить уравнение a*x-b=c</string>
+    <string name="a">Введите A</string>
+    <string name="b">Введите B</string>
+    <string name="c">Введите C</string>
+    <string name="calculate">Вычислить</string>
 </resources>

@@ -1,4 +1,4 @@
-package ru.samsung.itschool.book.lifecycle242;
+package ru.samsung.itschool.book.equation243;
 
 import org.junit.Test;
 

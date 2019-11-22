@@ -1,4 +1,4 @@
-package ru.samsung.itschool.book.lifecycle242;
+package ru.samsung.itschool.book.equation243;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ru.samsung.itschool.book.lifecycle242", appContext.getPackageName());
+        assertEquals("ru.samsung.itschool.book.equation243", appContext.getPackageName());
     }
 }
